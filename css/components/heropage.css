@@ -1,0 +1,67 @@
+.heropage {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url("/img/berries.jpg"); */
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.heropage__block {
+  position: relative;
+  z-index: 4;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.header__block {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-weight: 100;
+  margin-left: 30px;
+}
+
+.header__block-p {
+  text-transform: capitalize;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 3em;
+}
+
+.header__block-h {
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 8em;
+  letter-spacing: 60px;
+  font-weight: 400;
+  margin-top: -30px;
+}
+
+.heropage__info {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.heropage__text {
+  width: 62.5%;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 10px;
+  text-align: center;
+  
+}

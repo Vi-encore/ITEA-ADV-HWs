@@ -1,0 +1,90 @@
+.nav {
+  position: relative;
+  z-index: 5;
+}
+
+.nav-and-links {
+  position: fixed;
+
+  top: 270px;
+  right: 15px;
+
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.nav__item {
+  list-style: none;
+  padding-top: 15px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+
+
+.nav__a {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav__a i {
+   color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  transition: all 150ms ease-in-out;
+}
+
+.nav__a:hover > i {
+  color: #ffffff;
+}
+
+.nav__about {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #ffffff;
+  padding-right: 15px;
+  opacity: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  transition: all 150ms ease-in-out;
+}
+
+
+
+.nav__a:hover > .nav__about {
+  opacity: 100%;
+}
+.nav__links {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: end;
+}
+
+.nav__link {
+  padding-top: 15px;
+  transition: all 150ms ease-in-out;
+  font-size: 20px;
+}
+
+.nav__link:first-child:hover,
+.nav__link:first-child:active {
+  color: #0673cc;
+}
+
+.nav__link:last-child:hover,
+.nav__link:last-child:active {
+  color: #1a8cd8;
+}

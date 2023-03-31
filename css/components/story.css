@@ -1,0 +1,153 @@
+.section-story {
+    background-color: #1c2723;
+}
+
+.section-story__main-pics {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0 20px 0;
+}
+
+.pic__roundy {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.pic__roundy:hover {
+  border: #ffffff solid 4px;
+}
+
+.pic__descr {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.section-story__beans-coffee {
+  background-color: #26362b;
+  width: 100%;
+}
+
+.section-story__side-img {
+  width: 100%;
+}
+
+.section-story__coffee {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-story__coffee-pic {
+  width: 300px;
+}
+
+.coffee__info {
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.coffee__head {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  color: #ffffffca;
+}
+
+.coffee__text {
+  text-align: justify;
+  font-size: 1em;
+  line-height: 25px;
+  color: #ffffff9f;
+  font-weight: 300;
+}
+
+.coffee__btn {
+  margin-top: 30px;
+  width: 275px;
+  padding: 15px 35px;
+  border-radius: 40px;
+  border: #ffffffca solid 2px;
+}
+
+.coffee__btn:hover {
+  background-color: #1c2723;
+}
+
+.coffee__btn-text {
+  text-transform: uppercase;
+  color: #ffffffca;
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.section-story__phrase {
+  background-color: #1c2723;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content:space-between */
+}
+
+.section-story__phrase-text {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.section-story__phrase-img {
+  width: 50%;
+}
+
+.section__btn-arrow {
+  width: 53px;
+  height: 50px;
+  background-color: #4e6c22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: #1c2723 solid 7px;
+  position: relative;
+  top: 205px;
+  left: 25px;
+}
+
+.section__btn-textarrow {
+  text-align: center;
+  padding-left: 5px;
+  padding-top: 2px;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #fff;
+}
+
+.section__btn-arrow:hover > .section__btn-textarrow {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+.section-story__phrase-content {
+  width: 50%;
+  text-align: center;
+}
+
+.section-story__bottom {
+  background-color: #26362B;
+}
+
+.section-story__bottom-img {
+  width: 100%;
+  
+}
