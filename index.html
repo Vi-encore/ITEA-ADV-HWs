@@ -67,7 +67,29 @@
     </nav>
     <main>
       <section class="heropage" id="heropage">
-        <img src="img/bg-heropage.jpg" alt="bg" class="bg-img" loading="lazy" />
+        <picture class="heropage__picture">
+          <source
+            srcset="img/bg-heropage-576.jpg"
+            type="image/jpg"
+            media="(max-width:576px)"
+          />
+          <source
+            srcset="img/bg-heropage-768.jpg"
+            type="image/jpg"
+            media="(max-width:768px)"
+          />
+          <source
+            srcset="img/bg-heropage-992.jpg"
+            type="image/jpg"
+            media="(max-width:992px)"
+          />
+          <img
+            src="img/bg-heropage.jpg"
+            alt="bg"
+            class="bg-img"
+            loading="lazy"
+          />
+        </picture>
         <div class="heropage__block">
           <div class="header__block">
             <h1 class="header__block-h">origins</h1>
@@ -152,6 +174,9 @@
               />
               <p class="pic__descr">sunshine</p>
             </div>
+            <div class="section__pic section__ad">
+              <div class="pic__roundy"></div>
+            </div>
           </div>
           <div class="section-story__main-btn section__btn">
             <p class="section__btn-text">+</p>
@@ -202,8 +227,11 @@
               </div>
             </div>
           </div>
-          <div class="section__btn-arrow">
-            <p class="section__btn-textarrow">▷</p>
+          <div class="section__btn section__btn-arrow">
+            <p class="section__btn-textarrow">
+              <i class="fa-solid fa-play"></i>
+              <!-- ▷ -->
+            </p>
           </div>
           <img
             src="img/man-in-hat.png"
@@ -289,6 +317,9 @@
                   class="pic__roundy"
                   loading="lazy"
                 />
+              </div>
+              <div class="section__pic section__ad">
+                <div class="pic__roundy"></div>
               </div>
             </div>
           </div>

@@ -15,13 +15,17 @@
   z-index: 4;
 }
 
+.heropage__picture {
+  width: 100%;
+}
+
 .bg-img {
   position: absolute;
   top: 0;
   z-index: 1;
 
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 .header__block {

@@ -24,9 +24,10 @@
 }
 
 .section-plantations__btn {
-  position: relative;
-  top: 190px;
+  display: flex;
+  align-self: center;
   right: 25px;
+  width: 50px;
 }
 
 .plantations__about {
@@ -44,7 +45,8 @@
 }
 
 .plantations__pics {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
 }
+

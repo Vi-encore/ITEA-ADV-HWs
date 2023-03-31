@@ -1,5 +1,11 @@
 .section-story {
-    background-color: #1c2723;
+  background-color: #1c2723;
+}
+
+.section-story__main-btn {
+  /* width: 50px;
+  height: 50px; */
+  bottom: -25px;
 }
 
 .section-story__main-pics {
@@ -75,10 +81,12 @@
   padding: 15px 35px;
   border-radius: 40px;
   border: #ffffffca solid 2px;
+  transition: all 150ms ease-in-out;
 }
 
 .coffee__btn:hover {
   background-color: #1c2723;
+  width: 300px;
 }
 
 .coffee__btn-text {
@@ -87,6 +95,12 @@
   font-size: 1em;
   letter-spacing: 2px;
   font-weight: 400;
+   transition: all 150ms ease-in-out;
+   text-align: center;
+}
+
+.coffee__btn:hover > .coffee__btn-text {
+  font-weight: 600;
 }
 
 .section-story__phrase {
@@ -111,31 +125,26 @@
 }
 
 .section__btn-arrow {
-  width: 53px;
-  height: 50px;
-  background-color: #4e6c22;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: #1c2723 solid 7px;
-  position: relative;
-  top: 205px;
+  width: 50px;
+  align-self: center;
   left: 25px;
 }
 
 .section__btn-textarrow {
+  width: 20px;
+  height: 20px;
+  font-size: 1.3em;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff; /* width and color */
+}
+
+.section__btn-textarrow i {
   text-align: center;
-  padding-left: 5px;
-  padding-top: 2px;
-  font-size: 1.5em;
-  font-weight: 400;
-  color: #fff;
+  margin-left: 4px;
 }
 
 .section__btn-arrow:hover > .section__btn-textarrow {
-  font-size: 1.7em;
-  font-weight: 600;
+  color: #fff;
 }
 
 .section-story__phrase-content {
@@ -144,10 +153,9 @@
 }
 
 .section-story__bottom {
-  background-color: #26362B;
+  background-color: #26362b;
 }
 
 .section-story__bottom-img {
   width: 100%;
-  
 }
