@@ -17,7 +17,7 @@
     letter-spacing: 8px;
   }
 
-  @media screen and (min-height: 700px) {
+  @media screen and (min-height: 650px) {
     .heropage {
       height: 50vh;
     }
