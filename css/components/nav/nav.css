@@ -3,6 +3,10 @@
   z-index: 5;
 }
 
+.nav-mobile {
+  display: none;
+}
+
 .nav-and-links {
   position: fixed;
 
@@ -29,15 +33,13 @@
   align-items: center;
 }
 
-
-
 .nav__a {
   display: flex;
   flex-direction: row-reverse;
 }
 
 .nav__a i {
-   color: transparent;
+  color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ffffff;
   transition: all 150ms ease-in-out;
@@ -61,12 +63,10 @@
   transition: all 150ms ease-in-out;
 }
 
-
-
 .nav__a:hover > .nav__about {
   /* opacity: 100%;
    */
-   display: block;
+  display: block;
 }
 .nav__links {
   display: flex;

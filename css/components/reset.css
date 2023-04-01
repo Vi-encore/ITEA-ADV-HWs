@@ -14,3 +14,7 @@ a {
 picture {
   width: fit-content;
 }
+
+.hidden {
+  display: none;
+}
