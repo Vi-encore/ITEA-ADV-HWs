@@ -23,7 +23,7 @@
     }
 
     .bg-img {
-      height: 50%;
+      height: 50vh;
       background-color: #1c2723;
     }
   }
@@ -48,4 +48,6 @@
     font-size: 0.8em;
     letter-spacing: 6px;
   }
+
+  
 }

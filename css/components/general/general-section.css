@@ -97,6 +97,10 @@
 
 .section__pic {
   margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section__ad {

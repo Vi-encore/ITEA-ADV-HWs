@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+  .header {
+    font-size: 1.2em;
+  }
+
+  .section__subheader {
+    font-size: 0.8em;
+    padding: 0;
+    line-height: 20px;
+  }
+
+  .section__p {
+    font-size: 0.9em;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .line--min {
+    width: 30px;
+  }
+
+  .section__subheader {
+    margin-top: 10px;
+  }
+
+  .subheader__min {
+    width: 80%;
+  }
+}

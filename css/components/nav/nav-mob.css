@@ -22,7 +22,7 @@
     height: 24px;
     display: flex;
     justify-content: end;
-    color: transparent;
+    color: #ffffff99;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffffff;
     transition: all 150ms ease-in-out;
@@ -34,9 +34,8 @@
     /* text-align: end; */
   }
 
-  .nav-menu__btn:hover,
-  .nav-menu__btn:active {
-    color: #ffffff99;
+  .nav-menu__btn:hover {
+    color: #778d54c7;
   }
 
   .nav-menu__btn-rotate {
@@ -45,6 +44,7 @@
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+    color: #546b2fc7
   }
 /* 
   .nav-menu__btn:active {

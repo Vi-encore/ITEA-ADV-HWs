@@ -22,7 +22,7 @@
     font-size: 2em;
   }
 
-  .pic__descr:last-child::after {
+  .pic__descr-more::after {
     content: "...";
   }
 
