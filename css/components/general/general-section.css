@@ -30,6 +30,8 @@
 .head__deco-diamond__big{
   width: 12px;
   color: #ffffff6e;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff6e;
   width: 12px;
 }
 
