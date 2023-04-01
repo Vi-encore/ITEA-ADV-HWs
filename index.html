@@ -175,27 +175,46 @@
               <p class="pic__descr">sunshine</p>
             </div>
             <div class="section__pic section__ad">
-              <div class="pic__roundy"></div>
+              <div class="pic__roundy__wrap">
+                <p class="pic__roundy__text">+</p>
+              </div>
+
+              <p class="pic__descr">more</p>
             </div>
           </div>
-          <div class="section-story__main-btn section__btn">
+          <div class="section__btn section-story__main-btn">
             <p class="section__btn-text">+</p>
           </div>
         </section>
         <section class="section-story__beans-coffee">
-          <img
-            src="img/berries.jpg"
-            alt="Raw coffee beans"
-            class="section-story__side-img"
-            loading="lazy"
-          />
-          <div class="section-story__coffee">
+          <picture>
+            <source
+              srcset="img/berries-min.jpg"
+              type="image/jpg"
+              media="(max-width:992px)"
+            />
             <img
-              src="img/coffee.png"
-              alt="Coffee mug"
-              class="section-story__coffee-pic"
+              src="img/berries.jpg"
+              alt="Raw coffee beans"
+              class="section-story__side-img"
               loading="lazy"
             />
+          </picture>
+          <div class="section-story__coffee">
+            <picture>
+              <source
+                srcset="img/coffee-min.png"
+                type="image/png"
+                media="(max-width:992px)"
+              />
+
+              <img
+                src="img/coffee.png"
+                alt="Coffee mug"
+                class="section-story__coffee-pic"
+                loading="lazy"
+              />
+            </picture>
             <div class="coffee__info">
               <h5 class="coffee__head">Try a perfect terroir coffe?</h5>
               <p class="coffee__text">
@@ -233,20 +252,35 @@
               <!-- ▷ -->
             </p>
           </div>
-          <img
-            src="img/man-in-hat.png"
-            alt="Man in hat"
-            class="section-story__phrase-img"
-            loading="lazy"
-          />
+          <!-- <picture>
+            <source
+              srcset="img/man-in-hat-md.png"
+              type="image/png"
+              media="(max-width:992px)"
+            /> -->
+            <img
+              src="img/man-in-hat.png"
+              alt="Man in hat"
+              class="section-story__phrase-img"
+              loading="lazy"
+            />
+          <!-- </picture> -->
         </section>
         <section class="section-story__bottom">
-          <img
-            src="img/berries-bottom.jpg"
-            alt="Raw coffee beans"
-            class="section-story__bottom-img"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcset="img/berries-bottom-md.jpg"
+              type="image/jpg"
+              media="(max-width:992px)"
+            />
+
+            <img
+              src="img/berries-bottom.jpg"
+              alt="Raw coffee beans"
+              class="section-story__bottom-img"
+              loading="lazy"
+            />
+          </picture>
         </section>
       </section>
       <section class="plantations" id="plantations">
@@ -319,8 +353,10 @@
                 />
               </div>
               <div class="section__pic section__ad">
-                <div class="pic__roundy"></div>
+              <div class="pic__roundy__wrap">
+                <p class="pic__roundy__text">+</p>
               </div>
+            </div>
             </div>
           </div>
         </div>

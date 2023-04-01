@@ -4,10 +4,13 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   /* overflow-x: hidden; */
-  
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
+}
+
+picture {
+  width: fit-content;
 }

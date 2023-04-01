@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px) {
+  .header__block-h {
+    font-size: 6em;
+    letter-spacing: 35px;
+  }
+
+  .header__block-p {
+    font-size: 2.3em;
+  }
+
+  .heropage__info {
+    margin-top: 1.25px;
+  }
+
+  .heropage__text {
+    font-size: 1em;
+    letter-spacing: 8px;
+  }
+
+  @media screen and (min-height: 700px) {
+    .heropage {
+      height: 50vh;
+    }
+
+    .bg-img {
+      height: 50%;
+      background-color: #1c2723;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__block-h {
+    font-size: 4em;
+    letter-spacing: 25px;
+  }
+
+  .header__block-p {
+    font-size: 1.8em;
+    padding-bottom: 0.25em;
+  }
+
+  .heropage__info {
+    margin-top: 0.8em;
+  }
+
+  .heropage__text {
+    font-size: 0.8em;
+    letter-spacing: 6px;
+  }
+}

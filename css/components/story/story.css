@@ -14,24 +14,6 @@
   margin: 30px 0 20px 0;
 }
 
-.pic__roundy {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-  transition: all 150ms ease-in-out;
-}
-
-.pic__roundy:hover {
-  border: #ffffff solid 4px;
-}
-
-.pic__descr {
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  text-transform: capitalize;
-}
-
 .section-story__beans-coffee {
   background-color: #26362b;
   width: 100%;
@@ -46,6 +28,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 .section-story__coffee-pic {
@@ -95,8 +78,8 @@
   font-size: 1em;
   letter-spacing: 2px;
   font-weight: 400;
-   transition: all 150ms ease-in-out;
-   text-align: center;
+  transition: all 150ms ease-in-out;
+  text-align: center;
 }
 
 .coffee__btn:hover > .coffee__btn-text {
