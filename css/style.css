@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  background: #cfdef3;
+  background: -webkit-linear-gradient(90deg, #cfdef3 0%, #e0eafc 100%);
+  background: linear-gradient(90deg, #cfdef3 0%, #e0eafc 100%);
+
+  /*#ccdbee; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.downloader {
+  max-width: 600px;
+  width: 100%;
+  /* min-height: 50vh; */
+
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 0 5px 15px #abb4bd33;
+  box-shadow: 0 5px 15px #abb4bd33;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.downloader__header {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.downloader__header::after {
+  content: ":";
+}
+
+.downloader__drag-area {
+  height: 400px;
+  border: 2px dashed #d7dfef;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /*margin: 10px auto*/
+}
+
+.drag-icon__container {
+  font-size: 3em;
+
+  color: #589ff0;
+}
+
+.drag__header {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #2a3c4e;
+}
+
+.drag__header-btn {
+  color: #589ff0;
+  cursor: pointer;
+}
+
+.drag__ad-info {
+  font-size: 0.8em;
+  color: #979797;
+  margin: 10px 0;
+}
+
+.active {
+  border: 2px solid #589ff0;
+}
+
+.uploaded-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

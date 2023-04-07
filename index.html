@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Downloader vers 1</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+
+    <script
+      src="https://kit.fontawesome.com/9526baa9cb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="downloader">
+        <h3 class="downloader__header">Upload your file</h3>
+        <div class="downloader__drag-area">
+          <div class="drag-icon__container">
+            <i class="fa-solid fa-images drag-icon"></i>
+          </div>
+
+          <span class="drag__header"> Drag & Drop </span>
+          <span class="drag__header"
+            >or <span class="drag__header-btn">browse</span></span
+          >
+          <input type="file" class="upload-input" hidden />
+
+          <p class="drag__ad-info">Supported: JPEG, JPG, PNG</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
