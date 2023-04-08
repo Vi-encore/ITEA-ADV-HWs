@@ -23,12 +23,19 @@
     <div class="container">
       <div class="drop__wrapper">
         <h1 class="drop__header">File Uploader javascript</h1>
-        <div class="drop__area">
+        <form action="#" class="drop__area">
+          <input
+            type="file"
+            name="file"
+            id="#"
+            class="drop__btn-hidden"
+            hidden
+          />
           <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
-          <p class="drop__do-that">Browse Files to Upload</p>
-        </div>
+          <p class="drop__do-that">Browse or Drop Files to Upload</p>
+        </form>
         <section class="drop__progress-area">
-          <div class="drop__row">
+          <!-- <div class="drop__row">
             <i class="fa-solid fa-file-arrow-up drop__progress-icon"></i>
             <div class="drop__content">
               <div class="drop__details">
@@ -39,10 +46,10 @@
                 <div class="progress"></div>
               </div>
             </div>
-          </div>
+          </div> -->
         </section>
         <section class="drop__done-area">
-          <div class="drop__row">
+          <!-- <div class="drop__row">
             <div class="drop__content">
               <i class="fa-solid fa-file-arrow-up drop__progress-icon"></i>
               <div class="drop__details">
@@ -51,17 +58,7 @@
               </div>
             </div>
             <i class="fa-solid fa-check drop__checkmark"></i>
-          </div>
-          <div class="drop__row">
-            <div class="drop__content">
-              <i class="fa-solid fa-file-arrow-up drop__progress-icon"></i>
-              <div class="drop__details">
-                <span class="drop__name">img_01.png · Uploaded</span>
-                <span class="drop__size">375 KB</span>
-              </div>
-            </div>
-            <i class="fa-solid fa-check drop__checkmark"></i>
-          </div>
+          </div> -->
         </section>
       </div>
     </div>
