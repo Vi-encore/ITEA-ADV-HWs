@@ -37,9 +37,7 @@ openFolderBtn.addEventListener("click", () => {
 
 uploadInput.addEventListener("change", function () {
   uploadedFile = this.files[0];
-
   showFile();
-
   dragArea.classList.add("active");
 });
 
