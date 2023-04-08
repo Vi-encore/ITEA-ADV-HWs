@@ -119,6 +119,17 @@ function giveSize(file, name) {
       let count = 0;
       loaded = 0;
 
+      let timeout = 100;
+      let connectionInfo = navigator.connection.effectiveType;
+
+      connectionInfo === "slow-2g"
+        ? (timeout = 1200)
+        : connectionInfo === "2g"
+        ? (timeout = 800)
+        : connectionInfo === "3g"
+        ? (timeout = 400)
+        : timeout;
+
       function timer() {
         setTimeout(function () {
           loaded += step;
@@ -167,7 +178,7 @@ function giveSize(file, name) {
           if (count < 5) {
             timer();
           }
-        }, 300);
+        }, timeout);
         Math.round(loaded);
         return loaded;
       }
@@ -178,3 +189,5 @@ function giveSize(file, name) {
     xhr.send(formData);
   }
 }
+
+// console.log(navigator.connection);
